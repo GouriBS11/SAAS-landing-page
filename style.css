@@ -1,0 +1,621 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.left-page{
+    background-color: #FFFFFF;
+    width: 520px;
+    height: 950px;
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.section1{
+    background-color: #7030CC;
+    height: 350px;
+    border-radius: 0.5em;
+}
+
+img[src="../image/white-logo.png"]{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 50px;
+}
+
+nav{
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-size: 15px;
+}
+.nav-items{
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.nav-items:hover{
+    color:#35C2E6;  
+    cursor: pointer; 
+}
+.btn1{
+   position: relative;
+   top: -25px;
+   float: right;
+   margin-right: 10px;
+   border: transparent;
+   background-color: #35C2E6;
+   color: #fff;
+   padding: 3px;
+   cursor: grab;
+}
+.section1 h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-right: 280px;
+    font-size: 30px;
+}
+.section1 p{
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 280px;
+    font-size: 12px;
+}
+img[src="../SAAS landing page/30495 [Converted]-01(1).svg"]{
+    width: 250px;
+    position: relative;
+    top: -250px;
+    left: 140px;
+}
+
+.btn2{
+    position: relative;
+    top: -200px;
+    left: 30px;
+    border: transparent;
+   background-color: #35C2E6;
+   color: #fff;
+   padding: 5px;
+   cursor: grab;
+}
+
+.section2 img{
+    width: 280px;
+}
+.section2 h1{
+    font-size: 20px;
+    margin-top: -260px;
+    margin-left: 300px;
+}
+.sub1 h4{
+    margin-left: 300px;
+   text-decoration: underline;
+}
+.sub1 p{
+    margin-left: 300px;
+    font-size: 10px;
+    margin-right: 60px;
+    margin-top: -20px;
+    color: #696969;
+}
+.sub2 h4{
+    margin-left: 300px;
+   text-decoration: underline;
+}
+.sub2 p{
+    margin-left: 300px;
+    font-size: 10px;
+    margin-right: 60px;
+    margin-top: -20px;
+    color: #696969;
+}
+.sub3 h4{
+    margin-left: 300px;
+   text-decoration: underline;
+   list-style: circle;
+}
+.sub3 p{
+    margin-left: 300px;
+    font-size: 10px;
+    margin-right: 60px;
+    margin-top: -20px;
+    color: #696969;
+}
+
+.section3 h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.box1{
+    /* border: solid #696969; */
+    width: 110px;
+    margin-left: 10px;
+    background-color: #fcf6f6;
+    margin-top: 20px;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box1 img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box1 h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box1 h4:hover , .box1 span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+span{
+    color: #696969;
+    font-size: 12px;
+}
+  
+
+
+.box2{
+    width: 110px;
+    margin-top: -135px;
+    margin-left: 140px;
+    background-color: #fcf6f6;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box2 img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box2 h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box2 h4:hover , .box2 span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+span{
+    color: #696969;
+    font-size: 12px;
+}
+
+
+
+.box3{
+    width: 110px;
+    margin-top: -135px;
+    margin-left: 270px; 
+    background-color: #fcf6f6;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box3 img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box3 h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box3 h4:hover , .box3 span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+span{
+    color: #696969;
+    font-size: 12px;
+}
+
+
+
+.box4{
+    width: 110px;
+    margin-top: -135px;
+    margin-left: 400px; 
+    background-color: #fcf6f6;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box4 img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box4 h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box4 h4:hover , .box4 span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+span{
+    color: #696969;
+    font-size: 12px;
+}
+
+
+
+
+
+/*Right page css*/
+
+
+
+
+
+.right-page{
+   
+    width: 520px;
+    margin-top: -960px;
+    margin-left: 650px;
+    background-color: #FFFFFF;
+    
+    height: 950px;
+} 
+
+.right-section1{
+    background-color: #7030CC;
+    height: 350px;
+    border-radius: 0.5em;
+    
+}
+
+.right-img1{
+    position: relative;
+    top: -60px;
+    margin-left: 30px;
+    width: 50px;
+}
+
+.right-nav{
+    color: #fff;
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+    font-size: 15px;
+}
+.r-nav-items{
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.r-nav-items:hover{
+    color:#35C2E6;  
+    cursor: pointer; 
+}
+.r-btn1{
+   position: relative;
+   top: -40px;
+   float: right;
+   margin-right: 10px;
+   border: transparent;
+   background-color: #35C2E6;
+   color: #fff;
+   padding: 3px;
+   cursor: grab;
+}
+.right-section1 h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-right: 280px;
+    font-size: 30px;
+    margin-top: -40px;
+}
+.right-section1 p{
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 280px;
+    font-size: 12px;
+}
+.right-img2{
+    width: 250px;
+    position: relative;
+    top: -250px;
+    left: 140px;
+}
+
+.r-btn2{
+    position: relative;
+    top: -200px;
+    left: 30px;
+    border: transparent;
+   background-color: #35C2E6;
+   color: #fff;
+   padding: 5px;
+   cursor: grab;
+}
+
+.right-section2 img{
+    width: 280px;
+}
+.right-section2 h1{
+    font-size: 20px;
+    margin-top: -260px;
+    margin-left: 300px;
+}
+.sub1-right h4{
+    margin-left: 300px;
+   text-decoration: underline;
+}
+.sub1-right p{
+    margin-left: 300px;
+    font-size: 10px;
+    margin-right: 60px;
+    margin-top: -20px;
+    color: #696969;
+}
+.sub2-right h4{
+    margin-left: 300px;
+   text-decoration: underline;
+}
+.sub2-right p{
+    margin-left: 300px;
+    font-size: 10px;
+    margin-right: 60px;
+    margin-top: -20px;
+    color: #696969;
+}
+.sub3-right h4{
+    margin-left: 300px;
+   text-decoration: underline;
+   list-style: circle;
+}
+.sub3-right p{
+    margin-left: 300px;
+    font-size: 10px;
+    margin-right: 60px;
+    margin-top: -20px;
+    color: #696969;
+}
+
+.right-section3 h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.box1-r{
+    /* border: solid #696969; */
+    width: 110px;
+    margin-left: 10px;
+    background-color: #fcf6f6;
+    margin-top: 20px;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box1-r img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box1-r h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box1-r h4:hover , .box1-r span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+.box1-r span{
+    color: #696969;
+    font-size: 12px;
+}
+  
+
+
+.box2-r{
+    width: 110px;
+    margin-top: -135px;
+    margin-left: 140px;
+    background-color: #fcf6f6;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box2-r img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box2-r h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box2-r h4:hover , .box2-r span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+.box-r span{
+    color: #696969;
+    font-size: 12px;
+}
+
+
+
+.box3-r{
+    width: 110px;
+    margin-top: -135px;
+    margin-left: 270px; 
+    background-color: #fcf6f6;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box3-r img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box3-r h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box3-r h4:hover , .box3-r span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+.box3-r span{
+    color: #696969;
+    font-size: 12px;
+}
+
+
+
+.box4-r{
+    width: 110px;
+    margin-top: -135px;
+    margin-left: 400px; 
+    background-color: #fcf6f6;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 5px 0 slategrey ;
+}
+.box4-r img{
+    width: 40px;
+   margin-left: 35px;
+}
+.box4-r h4{
+    font-size: 15px;
+   margin-top: -2px;
+   /* margin-left: 15px; */
+   text-align: center;
+}
+.box4-r h4:hover , .box4 span:hover{
+    color: #fff;
+    cursor: pointer;
+    border: solid #7030CC;
+    background-color: #7030CC;
+    border-radius: 0.8em;
+}
+.box4-r span{
+    color: #696969;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 800px) {
+    html{
+        overflow-x: hidden;
+    }
+    .left-page{
+        margin-left: -1px;
+        width: 470px;
+    }
+    nav{
+        display: none;
+    }
+    button{
+       margin-top: 50px;
+    }
+    h1{
+        margin-top: 0px;
+    }
+    .section1 p{
+        margin-top: -10px;
+    }
+    img[src="../SAAS landing page/30495 [Converted]-01(1).svg"]{
+        margin-left: -20px;
+    }
+    .section1{
+        height: 380px;
+    }
+    .box1{
+        position: relative;
+        left: 80px;
+    }
+    .box2{
+        position: relative;
+        left: 100px;
+    }
+
+    .box3{
+        position: relative;
+        top: 150px;
+        left: -180px;
+    }
+    .box4{
+        position: relative;
+        top: 150px;
+        left: -160px;
+    }
+    .left-page{
+        height: 1120px;
+    }
+
+
+    .right-page{
+        position: relative;
+        left: -650px;
+        top: 1000px;
+        width: 470px;
+        height: 1120px;
+    }
+    .right-img1{
+        position: relative;
+        top: 0px;
+    }
+    .right-section1 h1{
+        margin-top: 0px;
+    }
+    .right-section1 p{
+        margin-top: -10px;
+    }
+    .right-section1{
+        height: 380px;
+    }
+    
+    .box1-r{
+        position: relative;
+        left: 80px;
+     }
+    .box2-r{
+        position: relative;
+        left: 100px;
+    }
+
+    .box3-r{
+        position: relative;
+        top: 150px;
+        left: -180px;
+    }
+    .box4-r{
+        position: relative;
+        top: 150px;
+        left: -160px;
+    } 
+} 
